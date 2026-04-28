@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE/editor
+.idea/
+.vscode/
+
+# Secrets / local env
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+
+# Copilot/agent local metadata
+.claude/
+.agents/
+CLAUDE.md
+skills-lock.json
+
+# Presentation/research artifacts not needed for Streamlit deploy
+research_*.md
+functional_schema.drawio
+build_v3.py
+enhance_v3.py
